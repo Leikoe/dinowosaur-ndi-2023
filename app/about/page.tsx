@@ -12,6 +12,7 @@ import toma from "@/public/people/toma.jpeg";
 import leo from "@/public/people/leo.png";
 import eloya from "@/public/people/eloya.png";
 import mathis from "@/public/people/mathis.webp";
+import tanguy from "@/public/people/tanguy.png";
 
 interface People {
   img: StaticImageData;
@@ -54,6 +55,11 @@ const people: People[] = [
     img: juju,
     name: "Juliette Petit",
     link: "https://github.com/JuliettePetit",
+  },
+  {
+    img: tanguy,
+    name: "Tanguy Decabrat",
+    link: "https://github.com/TDecabrat",
   },
 ];
 
